@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Voz - Acessível</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+    <div class="calculadora-container">
+        <div class="calculadora-cabecalho">
+            <h1><i class="fas fa-calculator"></i> Calculadora Voz</h1>
+            <p>Fale seu cálculo, eu faço a conta!</p>
+        </div>
+
+        <div class="calculadora-corpo">
+            <div class="display">
+                <div class="display-texto" id="texto-calculo">Clique em "Ouvir" e fale seu cálculo...</div>
+                <div class="display-resposta" id="texto-resposta">0</div>
+            </div>
+
+            <div class="botoes-acoes">
+                <button class="btn btn-ouvir" id="btn-ouvir">
+                    <i class="fas fa-microphone icones-voz"></i> Ouvir
+                </button>
+                <button class="btn btn-falar" id="btn-falar">
+                    <i class="fas fa-volume-up icones-voz"></i> Dizer Resposta
+                </button>
+            </div>
+
+            <button class="btn btn-limpar" id="btn-limpar">
+                <i class="fas fa-eraser"></i> Limpar Tudo
+            </button>
+
+            <div class="instrucoes">
+                <h3><i class="fas fa-info-circle"></i> Como usar</h3>
+                <p>Fale coisas como: "três mais cinco", "dez vezes dois", "vinte menos sete", "dezesseis dividido por quatro"</p>
+            </div>
+        </div>
+
+        <!-- Marcação ILDEAN apenas aqui -->
+        <div class="rodape-projeto">
+            Desenvolvido por <span>ILDEAN</span> - Projeto Exclusivo
+        </div>
+    </div>
+ <script src="calculadora.js"></script>
+    
+</body>
+</html>
